@@ -7,10 +7,5 @@ describe('eXide', function() {
     cy.reload(true)
 
   })
-  it('should display editor', function () {
-    cy.get('.path')
-    cy.contains('__new__1')
-  })
-
   // more tests here
 })
